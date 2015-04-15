@@ -20,4 +20,14 @@
             android:layout_height="match_parent" android:layout_gravity="start"
             app:layout="@layout/fragment_navigation_drawer" />
     </android.support.v4.widget.DrawerLayout>
+	
+	<ImageButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/imageButton"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentEnd="true"
+    android:background="@mipmap/ic_launcher"
+    android:onClick="showMessage1" />
+	
 </RelativeLayout>

@@ -85,5 +85,13 @@ public class MainActivity extends ActionBarActivity
         return super.onOptionsItemSelected(item);
     }
 
+	 public void showMessage1 (View view) {
+        Context context = getApplicationContext();
+        CharSequence text = "Josh is super Dumb";
+        int duration = Toast.LENGTH_SHORT;
+
+        Toast toast = Toast.makeText(context, text, duration);
+        toast.show();
+    }
 
 }
