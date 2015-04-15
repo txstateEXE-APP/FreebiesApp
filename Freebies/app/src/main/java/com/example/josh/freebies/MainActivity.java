@@ -68,7 +68,6 @@ public class MainActivity extends ActionBarActivity
             super.onBackPressed();
     }
 
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         if (!mNavigationDrawerFragment.isDrawerOpen()) {
