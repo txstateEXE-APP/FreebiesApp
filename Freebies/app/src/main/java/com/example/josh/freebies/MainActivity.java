@@ -46,13 +46,8 @@ public class MainActivity extends ActionBarActivity
             Toast.makeText(this, "Brandon is a baddie, Also this position was clicked --> " + position, Toast.LENGTH_LONG).show();
         }
         else if(position == 1){
-            //MapsActivity ma = new MapsActivity();
-            //ma.startActivity(new Intent());
-            //Context context = getApplicationContext();
             Intent intent = new Intent(this, MapsActivity.class);
             startActivity(intent);
-
-
         }
         else {
             Toast.makeText(this, "Menu item selected -> " + position, Toast.LENGTH_SHORT).show();
