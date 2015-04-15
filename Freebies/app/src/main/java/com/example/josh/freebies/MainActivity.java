@@ -1,5 +1,7 @@
 package com.example.josh.freebies;
 
+import android.content.Context;
+import android.content.Intent;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.support.v4.widget.DrawerLayout;
@@ -7,6 +9,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Toast;
 
 
@@ -41,6 +44,15 @@ public class MainActivity extends ActionBarActivity
         if(position == 3)
         {
             Toast.makeText(this, "Brandon is a baddie, Also this position was clicked --> " + position, Toast.LENGTH_LONG).show();
+        }
+        else if(position == 1){
+            //MapsActivity ma = new MapsActivity();
+            //ma.startActivity(new Intent());
+            //Context context = getApplicationContext();
+            Intent intent = new Intent(this, MapsActivity.class);
+            startActivity(intent);
+
+
         }
         else {
             Toast.makeText(this, "Menu item selected -> " + position, Toast.LENGTH_SHORT).show();
