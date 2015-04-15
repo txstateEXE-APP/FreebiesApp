@@ -37,15 +37,4 @@
         android:layout_height="match_parent" android:background="@color/myDrawerBackground"
         android:layout_below="@+id/separator" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New Text"
-        android:id="@+id/textView"
-        android:layout_alignBottom="@+id/drawerList"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="322dp"
-        android:layout_marginEnd="322dp"/>
-
 </RelativeLayout>

@@ -38,20 +38,22 @@ public class MainActivity extends ActionBarActivity
         mNavigationDrawerFragment.setUserData("Joshua Galindo", "Splitusa@gmail.com", BitmapFactory.decodeResource(getResources(), R.drawable.avatar));
     }
 
+    //Navigation onClick Links
     @Override
     public void onNavigationDrawerItemSelected(int position) {
         // update the main content by replacing fragments
-        if(position == 3)
-        {
-            Toast.makeText(this, "Brandon is a baddie, Also this position was clicked --> " + position, Toast.LENGTH_LONG).show();
-        }
-        else if(position == 1){
-            Intent intent = new Intent(this, MapsActivity.class);
-            startActivity(intent);
-        }
-        else {
-            Toast.makeText(this, "Menu item selected -> " + position, Toast.LENGTH_SHORT).show();
-        }
+        switch(position){
+            case(1):
+                Intent intent = new Intent(this, MapsActivity.class);
+                startActivity(intent);
+                break;
+            case(3):
+                Toast.makeText(this, "Brandon is a baddie, Also this position was clicked --> " + position, Toast.LENGTH_LONG).show();
+                break;
+            default:
+                Toast.makeText(this, "Menu item selected -> " + position, Toast.LENGTH_SHORT).show();
+                break;
+        };
     }
 
 
