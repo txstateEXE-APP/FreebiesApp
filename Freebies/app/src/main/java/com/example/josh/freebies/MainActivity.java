@@ -50,6 +50,9 @@ public class MainActivity extends ActionBarActivity
             case(3):
                 Toast.makeText(this, "Brandon is a baddie, Also this position was clicked --> " + position, Toast.LENGTH_LONG).show();
                 break;
+            case(4):
+                Intent intent1 = new Intent(this, AboutActivity.class);
+                startActivity(intent1);
             default:
                 Toast.makeText(this, "Menu item selected -> " + position, Toast.LENGTH_SHORT).show();
                 break;
