@@ -129,7 +129,7 @@ public class MainActivity extends ActionBarActivity
         FragmentTransaction transaction = mFragmentManager.beginTransaction();
         switch (index){
             case INDEX_SIMPLE_LOGIN:
-                transaction.replace(android.R.id.content, new FragmentSimpleLoginButton(),FRAGMENT_TAG);
+                transaction.replace(R.id.container, new FragmentSimpleLoginButton(),FRAGMENT_TAG);
                 break;
 
         }
