@@ -4,6 +4,10 @@ android {
     compileSdkVersion 22
     buildToolsVersion "22.0.1"
 
+    repositories {
+        mavenCentral()
+    }
+
     defaultConfig {
         applicationId "com.example.josh.freebies"
         minSdkVersion 16
@@ -17,10 +21,6 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-}
-
-repositories {
-    mavenCentral()
 }
 
 dependencies {
