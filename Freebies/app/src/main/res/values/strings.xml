@@ -7,6 +7,8 @@
     <string name="title_activity_about">AboutActivity</string>
     <string name="action_simple_login">Facebook Login</string>
     <string name="app_id">537154259756067</string>
+    <string name="colorBG">#00FFFF</string>
+    <color name="aqua">#00FFFF</color>
 
 
     <string name="hello_world">Hello world!</string>
