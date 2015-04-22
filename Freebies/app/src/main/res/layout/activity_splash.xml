@@ -5,7 +5,6 @@
     android:background="@color/aqua" >
 
     <ImageView android:id="@+id/imgLogo"
-        android:src="@drawable/splash1"
         android:adjustViewBounds="true"
         android:gravity="center_vertical"
         android:scaleType="centerCrop"

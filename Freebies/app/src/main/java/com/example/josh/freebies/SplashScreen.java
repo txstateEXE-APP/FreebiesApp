@@ -2,11 +2,14 @@ package com.example.josh.freebies;
 
 /**
  * Created by splitix on 4/17/15.
+ * added randomizes the image on splashscreen by Christopher 4/21/2015
  */
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.widget.ImageView;
+import java.util.Random;
 
 public class SplashScreen extends Activity {
 
@@ -16,8 +19,13 @@ public class SplashScreen extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splash);
-
+        setContentView(R.layout.activity_splash);//randomizes the image
+        Random rand = new Random();
+        int rndInt = rand.nextInt(3) + 1;
+        String imgName = "splash" + rndInt;
+        int id = getResources().getIdentifier(imgName, "drawable", getPackageName());
+        ImageView imageView = (ImageView) findViewById(R.id.imgLogo);//stops here
+        imageView.setImageResource(id);
         new Handler().postDelayed(new Runnable() {
 
         /*
@@ -39,4 +47,3 @@ public class SplashScreen extends Activity {
     }
 
 }
-
