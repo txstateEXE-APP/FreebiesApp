@@ -1,0 +1,35 @@
+﻿Merge remote-tracking branch 'origin/master'
+
+Conflicts:
+	Freebies/.idea/misc.xml
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 1 and 2 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# All conflicts fixed but you are still merging.
+#
+# Changes to be committed:
+#	deleted:    Art Designs/SPLASH SCREEN/Splash APP4.ai
+#	deleted:    Art Designs/SPLASH SCREEN/Splash APP4.png
+#	deleted:    Art Designs/SPLASH SCREEN/Splash Shitty1.png
+#	deleted:    Art Designs/SPLASH SCREEN/Splash Shitty2.png
+#	new file:   Art Designs/SPLASH SCREEN/Thumbs.db
+#	deleted:    Freebies/.idea/misc.xml
+#	modified:   Freebies/app/src/main/java/com/example/josh/freebies/SplashScreen.java
+#	new file:   Freebies/app/src/main/res/drawable/Thumbs.db
+#	modified:   Freebies/app/src/main/res/drawable/splash1.png
+#	new file:   Freebies/app/src/main/res/drawable/splash2.png
+#	new file:   Freebies/app/src/main/res/drawable/splash3.png
+#	modified:   Freebies/app/src/main/res/layout/activity_splash.xml
+#
+
