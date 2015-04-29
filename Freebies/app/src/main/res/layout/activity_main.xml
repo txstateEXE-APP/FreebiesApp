@@ -30,7 +30,7 @@
                 android:layout_alignParentBottom="true"
                 android:layout_alignParentEnd="true"
                 android:background="@mipmap/ic_launcher"
-                android:onClick="showMessage1"
+                android:onClick="fabButton"
                 android:layout_gravity="right|bottom" />
 
         </FrameLayout>

@@ -16,4 +16,21 @@
 
 <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_event_submission">EventSubmission</string>
+
+    // EventSubmission Activity Strings
+    <string name="event_title">Event Title</string>
+    <string name="event_type">Event Type:</string>
+    <string name="event_type_food">Food</string>
+    <string name="event_type_merch">Merchandise</string>
+    <string name="event_location">Event Location</string>
+    <string name="event_description">Event Description</string>
+    <string name="event_time">Event Time</string>
+    <string name="event_date">Event Date</string>
+    <string name="event_submit">Submit</string>
+        // hints
+    <string name="event_location_hint">Where\'s it at?</string>
+    <string name="event_time_hint">What time?</string>
+    <string name="event_title_hint">What is it?</string>
+
 </resources>

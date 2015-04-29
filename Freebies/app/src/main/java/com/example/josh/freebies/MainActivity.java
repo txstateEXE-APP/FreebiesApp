@@ -1,6 +1,5 @@
 package com.example.josh.freebies;
 
-import android.content.Context;
 import android.content.Intent;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
@@ -136,13 +135,9 @@ public class MainActivity extends ActionBarActivity
         transaction.commit();
     }
 
-	 public void showMessage1 (View view) {
-        Context context = getApplicationContext();
-        CharSequence text = "Josh is super Dumb";
-        int duration = Toast.LENGTH_SHORT;
-
-        Toast toast = Toast.makeText(context, text, duration);
-        toast.show();
+	 public void fabButton (View view) {
+         Intent eventSubmissionIntent = new Intent(this, EventSubmission.class);
+         startActivity(eventSubmissionIntent);
     }
 
 }
