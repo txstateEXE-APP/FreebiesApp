@@ -29,7 +29,7 @@
                 android:id="@+id/imageButton"
                 android:layout_alignParentBottom="true"
                 android:layout_alignParentEnd="true"
-                android:background="@mipmap/ic_launcher"
+                android:background="@drawable/fab"
                 android:onClick="fabButton"
                 android:layout_gravity="right|bottom" />
 
