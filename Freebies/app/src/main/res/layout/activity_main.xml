@@ -1,8 +1,13 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:clickable="true"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true">
 
     <include
         android:id="@+id/toolbar_actionbar"
@@ -17,24 +22,6 @@
         android:layout_height="match_parent"
         android:layout_below="@+id/toolbar_actionbar">
 
-        <FrameLayout
-            android:id="@+id/container"
-            android:layout_width="match_parent"
-            android:clickable="true"
-            android:layout_height="match_parent" >
-
-            <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageButton"
-                android:layout_alignParentBottom="true"
-                android:layout_alignParentEnd="true"
-                android:background="@drawable/fab"
-                android:onClick="fabButton"
-                android:layout_gravity="right|bottom" />
-
-        </FrameLayout>
-
         <!-- android:layout_marginTop="?android:attr/actionBarSize"-->
         <fragment android:id="@+id/fragment_drawer"
             android:name="com.example.josh.freebies.NavigationDrawerFragment"
@@ -44,4 +31,17 @@
             app:layout="@layout/fragment_navigation_drawer" />
     </android.support.v4.widget.DrawerLayout>
 
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/fab"
+        android:adjustViewBounds="true"
+        android:layout_marginBottom="24dp"
+        android:layout_marginRight="24dp"
+        android:scaleType="fitCenter"
+        android:onClick="fabButton"
+        android:layout_gravity="right|bottom" />
 </RelativeLayout>
